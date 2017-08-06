@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  activePage = 'recipes';
+
+  setPage(page) {
+  	this.activePage = page;
+  }
+
 }
